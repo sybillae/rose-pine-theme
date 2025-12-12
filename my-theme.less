@@ -8,94 +8,94 @@
 /* Core UI Colors
  * These variables control the fundamental visual elements of the editor
  */
-@background: #000;
-@foreground: #cdcdcd; // (Not for font color, but UI elements)
+@background: #1f1d2e;
+@foreground: #c4a7e7; // (Not for font color, but UI elements)
 
-@comment: #999;
-@comment-active: #aaa; // Applied when cursor is on a commented line
+@comment: #6e6a86;
+@comment-active: #c4a7e7; // Applied when cursor is on a commented line
 
-@cursor: #cdcdcd;
+@cursor: #e0def4;
 
 /* Active Line Highlighting */
-@activeline-background: #232323;
-@activeline-foreground: #cdcdcd;
+@activeline-background: #524f67;
+@activeline-foreground: #e0def4;
 
 /* Selected Code Highlighting */
-@selected-background: #232323;
+@selected-background: #44415a;
 
 /* UI Component Colors */
 // Title Bar
-@titlebar-background: #000;
-@titlebar-foreground: #cdcdcd;
+@titlebar-background: #1f1d2e;
+@titlebar-foreground: #e0def4;
 
 // Status Bar
-@status-bar-background: #000;
-@status-bar-foreground: #cdcdcd;
+@status-bar-background: #1f1d2e;
+@status-bar-foreground: #e0def4;
 
 // Sidebar - Houses file tree and working files
-@sidebar-background: #000;
-@sidebar-foreground: #cdcdcd;
-@sidebar-active-file-background: #000;
-@sidebar-active-file-foreground: #6bbeff; // Highlights the current working file (Try not to modify unless your color obscure the default color)
+@sidebar-background: #1f1d2e;
+@sidebar-foreground: #e0def4;
+@sidebar-active-file-background: #eb6f92;
+@sidebar-active-file-foreground: #eb6f92; // Highlights the current working file (Try not to modify unless your color obscure the default color)
 
 // the toggle buttons in the sidebar for the git branch option and the project option
-@git-branch-toggle-bg-sidebar: #000;
-@git-branch-toggle-fg-sidebar: #cdcdcd;
-@project-dropdown-toggle-bg: #000;
-@project-dropdown-toggle-fg: #cdcdcd;
+@git-branch-toggle-bg-sidebar: #1f1d2e;
+@git-branch-toggle-fg-sidebar: #e0def4;
+@project-dropdown-toggle-bg: #1f1d2e;
+@project-dropdown-toggle-fg: #e0def4;
 
 // Toolbar - Vertical panel on the right
-@toolbar-background: #000;
+@toolbar-background: #1f1d2e;
 
 /* Editor Gutter
   * Controls the area containing line numbers and code folding indicators
   */
-@gutter-background: #000;
-@active-gutter-background: #232323;
-@line-number: #999;
-@active-line-number: #aaa;
+@gutter-background: #1f1d2e;
+@active-gutter-background: #191724;
+@line-number: #ebbcba;
+@active-line-number: #f6c177;
 
-@border: #676767; // Used for UI element separation
+@border: #575279; // Used for UI element separation
 
 /* Search Highlighting
   * These colors are used when using the find/replace functionality
   */
-@searching-background: #f5ee92;
-@searching-foreground: #4e4225;
-@searching-match-background: #f5ee92;
-@searching-match-foreground: #4e4225;
+@searching-background: #f6c177;
+@searching-foreground: #191724;
+@searching-match-background: #f6c177;
+@searching-match-foreground: #191724;
 
 /* Brackets Highlighting
   * These colors are also used for Matching-Tags
   */
-@matchingbracket-background: #000;
-@matchingbracket-color: #fff;
-@active-matchingbracket-color: #fff;
-@active-matchingbracket-background: #232323;
+@matchingbracket-background: #1f1d2e;
+@matchingbracket-color: #e0def4;
+@active-matchingbracket-color: #eb6f92;
+@active-matchingbracket-background: #26233a;
 
 /* Syntax Highlighting
   * These variables control the colors of different code elements in the editor.
   * Customizing these will change how your code looks.
   */
 
-@keyword: #cdcdcd; // Programming keywords like 'function', 'const', 'if', 'for'
-@definition: #cdcdcd; // Function, variable, class names when they're being defined
-@variable: #cdcdcd; // Global/Predefined variables in your code
-@variable2: #cdcdcd; // Local variables
-@variable3: #cdcdcd; // used to over write any default colors
-@string: #cdcdcd; // Text between quotes: "example" or 'example'
-@string2: #cdcdcd; // Special string variants like regex literals and LaTeX math
-@tag: #cdcdcd; // HTML/XML tags like <div> or <body>
-@type: #cdcdcd; // Data types in statically typed languages like 'int', 'char', 'bool'
-@number: #cdcdcd; // Numeric values: 42, 1.5, 0xFF
-@operator: #cdcdcd; // Mathematical/logical operators: +, -, !, ===
-@meta: #cdcdcd; // Meta characters in regex and HTML doctype, include/import statements
-@attribute: #cdcdcd; // HTML attributes like 'class' or 'src'
-@property: #cdcdcd; // Object properties and CSS properties
-@link: #cdcdcd; // Hyperlinks in markdown
-@header: #cdcdcd; // Markdown headers (#, ##, etc.)
-@error: #f7768e; // Text that represents an error in your code
-@error-background: #f7768e1a; // Background highlight for error text
+@keyword: #f6c177; // Programming keywords like 'function', 'const', 'if', 'for'
+@definition: #f6c177; // Function, variable, class names when they're being defined
+@variable: #e0def4; // Global/Predefined variables in your code
+@variable2: #ebbcba; // Local variables
+@variable3: #e0def4; // used to over write any default colors
+@string: #c4a7e7; // Text between quotes: "example" or 'example'
+@string2: #f6c177; // Special string variants like regex literals and LaTeX math
+@tag: #9ccfd8; // HTML/XML tags like <div> or <body>
+@type: #ebbcba; // Data types in statically typed languages like 'int', 'char', 'bool'
+@number: #eb6f92; // Numeric values: 42, 1.5, 0xFF
+@operator: #eb6f92; // Mathematical/logical operators: +, -, !, ===
+@meta: #eb6f92; // Meta characters in regex and HTML doctype, include/import statements
+@attribute: #9ccfd8; // HTML attributes like 'class' or 'src'
+@property: #9ccfd8; // Object properties and CSS properties
+@link: #ebbcba; // Hyperlinks in markdown
+@header: #eb6f92; // Markdown headers (#, ##, etc.)
+@error: #eb6f92; // Text that represents an error in your code
+@error-background: #191724; // Background highlight for error text
 
 
 
@@ -138,7 +138,7 @@
 
 // Creates a visual separator between working files and project files
 .main-view #sidebar #working-set-list-container {
-	border-bottom: 1px solid @border;
+	border-bottom: 1px dashed @border;
 }
 
 // Removes default selection border in sidebar
@@ -205,7 +205,7 @@
 /* Main Editor Window */
 // Adds a separator between sidebar and editor content
 .content {
-	border-left: 1px solid @border;
+	border-left: 1px dashed @border;
 }
 
 // Sets the main editor background and text color
@@ -360,7 +360,7 @@ span.cm-variable-3 {
 // Styles for matching brackets (parentheses, square brackets, etc.)
 .CodeMirror-matchingbracket {
 	outline: none;
-	border-bottom: 1px solid @matchingbracket-color;
+	border-bottom: 1px dashed @matchingbracket-color;
 	color: @matchingbracket-color !important;
 	background-color: @matchingbracket-background;
 }
@@ -390,13 +390,13 @@ span.cm-variable-3 {
 
 // Cursor styling for normal mode
 .CodeMirror .CodeMirror-cursor {
-	border-left: 1px solid @cursor !important;
+	border-left: 1px dashed @cursor !important;
 }
 
 // Cursor styling for overwrite (insert) mode
 .CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {
 	border-left: none !important;
-	border-bottom: 1px solid @cursor;
+	border-bottom: 1px dashed @cursor;
 	width: 1.2ex;
 }
 
