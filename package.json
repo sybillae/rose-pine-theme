@@ -1,20 +1,21 @@
 {
-    "title": "Name of the theme",
-    "name": "github-<owner>-<repo>",
-    "description": "A sample dark theme.",
+    "title": "Rosé Pine",
+    "name": "github-sybillae-rose-pine-theme",
+    "description": "A sample Rose Pine theme.",
     "version": "0.0.1",
     "license": "MIT",
-    "author": "your name (https://github.com/<your github id>)",
-    "homepage": "<project web page url or this github repo url if no website available>",
+    "author": "https://github.com/sybillae",
+    "homepage": "https://github.com/sybillae/rose-pine-theme#",
     "engines": {
         "brackets": ">=2.0.0"
     },
     "categories": "demo",
     "keywords": [
-        "phcode", "theme", "demo"
+        "phcode", "theme", "rosepine", "dark-theme", "purple"
     ],
     "theme": {
         "file": "my-theme.less",
         "dark": true
     }
 }
+
