@@ -15,11 +15,11 @@
 
 ### Rosé Pine
 
-<img width="256" alt="Rosé Pine with App" src="https://github.com/user-attachments/assets/3d9df6a3-0ee3-43f2-b934-83cf8f2806c2" />
+<img width="456" alt="Rosé Pine in Pheonix Code" src="https://github.com/sybillae/rose-pine-theme/blob/main/screenshots/html.png" />
     <h2 align="center">HTML</h2>
 
-<img width="256" alt="Rosé Pine with App" src="https://github.com/user-attachments/assets/3d9df6a3-0ee3-43f2-b934-83cf8f2806c2" />
+<img width="456" alt="Rosé Pine in Pheonix Code" src="https://github.com/sybillae/rose-pine-theme/blob/main/screenshots/css.png" />
     <h2 align="center">CSS</h2>
 
-<img width="256" alt="Rosé Pine with App" src="https://github.com/user-attachments/assets/3d9df6a3-0ee3-43f2-b934-83cf8f2806c2" />
+<img width="456" alt="Rosé Pine in Pheonix Code" src="https://github.com/sybillae/rose-pine-theme/blob/main/screenshots/js.png" />
     <h2 align="center">Javascript</h2>
